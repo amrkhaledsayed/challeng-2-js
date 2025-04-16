@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(27, 39, 92);
+  color: white;
+  /* min-width: 1440px; */
+  font-family: "Lateef", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: white;
+  color: black;
+  width: 725px;
+  height: 500px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.img__post {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.left-content {
+  padding: 25px 25px 0px 25px;
+  margin-bottom: 0;
+}
+.header {
+  font-size: 60px;
+  font-weight: bold;
+  color: hsl(234, 29%, 20%);
+}
+
+.post__header,
+.newsletter {
+  font-size: 19px;
+  color: hsl(235, 18%, 26%);
+}
+
+.email_head {
+  font-size: 20px;
+  color: hsl(234, 29%, 20%);
+  margin-bottom: 70px;
+}
+
+.input__email {
+  display: block;
+  padding: 12px;
+  border-radius: 4px;
+  color: hsl(235, 18%, 26%);
+  border: 1px solid hsl(231, 17%, 92%);
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.but__sub {
+  display: inline-block;
+
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  font-size: 14px;
+  width: 108%;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.but__sub:hover {
+  background-color: hsl(235, 22%, 45%);
+}
+
+.features-list {
+  margin-left: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 15px 0 15px 10px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  column-gap: 6px;
+}

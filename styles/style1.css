@@ -1,0 +1,102 @@
+body {
+  width: 100%;
+  background-color: rgb(125, 211, 223);
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.Container {
+  display: grid;
+  background-color: white;
+  grid-template-columns: 1fr 1fr;
+  width: 700px;
+  margin: 50px auto;
+  border-radius: 9px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+h2 {
+  color: hsl(71, 73%, 54%);
+}
+
+.p-main {
+  color: hsl(202, 35%, 44%);
+}
+
+p {
+  font-size: 18px;
+}
+
+.main {
+  grid-column: 1 / -1;
+  margin: 28px 30px 11px;
+}
+
+.sub {
+  background-color: #2bb3b1;
+  padding: 20px;
+  color: rgb(247, 240, 240);
+}
+
+.but {
+  font-size: 20px;
+  border: none;
+  display: grid;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  width: 100%;
+  color: rgb(247, 240, 240);
+  padding: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.price-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 0;
+}
+
+.price-duration {
+  color: hsl(179, 56%, 50%);
+}
+
+h3,
+h4,
+h5 {
+  font-size: 28px;
+}
+
+h3,
+h5 {
+  margin: 5px;
+}
+
+.why-us {
+  background-color: #4abebd;
+  color: rgb(247, 240, 240);
+  padding: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

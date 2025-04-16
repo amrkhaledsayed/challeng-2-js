@@ -1,0 +1,37 @@
+.projects__main {
+  display: grid;
+  @include twocolumn($column-gap: 7.4rem, $row-gap: 7.5rem);
+}
+
+.projects__img {
+  max-width: 100%;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.project__data {
+  align-self: center;
+}
+
+.project__description {
+  line-height: 1.5;
+}
+
+.projects__link {
+  display: block;
+
+  color: var(--color-darker-blue);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-family-poppins);
+  margin-top: 2.3rem;
+}
+
+.projects__link::after {
+  content: "";
+  display: inline-block;
+  background-size: contain;
+  background-image: url("./img/icon.png");
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: 0.6rem;
+}
